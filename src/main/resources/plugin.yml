@@ -1,0 +1,27 @@
+name: Test
+version: '${project.version}'
+main: floatpoint.untitled3.Test
+api-version: 1.19
+
+commands:
+  fly:
+    description: Toggles flying.
+    usage: /fly
+    permission: fly
+    permission-message: You cannot fly on this server.
+  ban:
+    description: Bans a target player
+    usage: /ban <username>
+    permission: ban
+    permission-message: You cannot ban players on this server.
+  unban:
+    description: Unbans a target player
+    usage: /unban <username>
+    permission: unban
+    permission-message: You cannot unban players on this server.
+  scan:
+    description: Check if a player is banned
+    usage: /scan <username>
+    permission: scan
+    permission-message: You cannot check the ban status of players on this server.
+
