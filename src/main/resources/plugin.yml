@@ -1,6 +1,6 @@
-name: Test
+name: BanBetter
 version: '${project.version}'
-main: floatpoint.untitled3.Test
+main: floatpoint.untitled3.BanBetter
 api-version: 1.19
 
 commands:
@@ -13,6 +13,11 @@ commands:
     description: Bans a target player
     usage: /ban <username>
     permission: ban
+    permission-message: You cannot ban players on this server.
+  tempban:
+    description: Temporarily bans target player.
+    usage: /ban <username> <duration> <reason>
+    permission: tempban
     permission-message: You cannot ban players on this server.
   unban:
     description: Unbans a target player

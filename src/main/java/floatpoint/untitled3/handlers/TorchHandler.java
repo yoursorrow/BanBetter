@@ -1,17 +1,16 @@
 package floatpoint.untitled3.handlers;
 
-import floatpoint.untitled3.Test;
+import floatpoint.untitled3.BanBetter;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
-import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 
 public class TorchHandler implements Listener {
 
-    public TorchHandler(Test plugin){
+    public TorchHandler(BanBetter plugin){
 
         Bukkit.getPluginManager().registerEvents(this, plugin);
     }

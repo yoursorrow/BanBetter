@@ -1,6 +1,8 @@
 floatpoint\untitled3\commands\Unban.class
+floatpoint\untitled3\handlers\LoggingHandler.class
 floatpoint\untitled3\handlers\PlayerHandler.class
+floatpoint\untitled3\commands\Tempban.class
 floatpoint\untitled3\commands\Ban.class
 floatpoint\untitled3\commands\Fly.class
+floatpoint\untitled3\BanBetter.class
 floatpoint\untitled3\commands\IsBanned.class
-floatpoint\untitled3\Test.class
